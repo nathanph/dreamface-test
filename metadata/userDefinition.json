@@ -1,0 +1,76 @@
+{
+	"_id": "55720accd28ba9eb0165b60f",
+	"document": "userDefinition",
+	"metadata": {
+		"roles": {
+			"type": "subdocument",
+			"pass": "true",
+			"mandatory": "true",
+			"structure": {
+				"list": {
+					"title": "Roles list",
+					"mandatory": "true",
+					"type": "array",
+					"defaults": []
+				},
+				"default": {
+					"title": "Default role",
+					"mandatory": "true",
+					"type": "string",
+					"defaults": ""
+				}
+			}
+		},
+		"email": {
+			"title": "E-Mail",
+			"type": "string",
+			"pass": "true",
+			"mandatory": "true",
+			"defaults": ""
+		},
+		"name": {
+			"type": "subdocument",
+			"pass": "true",
+			"mandatory": "true",
+			"structure": {
+				"last": {
+					"title": "Last name",
+					"mandatory": "true",
+					"type": "string",
+					"defaults": ""
+				},
+				"first": {
+					"title": "First name",
+					"mandatory": "true",
+					"type": "string",
+					"defaults": ""
+				}
+			}
+		},
+		"credentials": {
+			"type": "subdocument",
+			"pass": "false",
+			"mandatory": "true",
+			"structure": {
+				"login": {
+					"title": "User login",
+					"mandatory": "true",
+					"type": "string",
+					"defaults": ""
+				},
+				"pass": {
+					"title": "User password",
+					"mandatory": "true",
+					"type": "string",
+					"defaults": ""
+				}
+			}
+		}
+	},
+	"application": "test",
+	"versioning": {
+		"status": "committed",
+		"user": "https://bluemix.marketplace.ibmcloud.com/openid/id/968fc41b-9304-4e9a-8fd3-f0878b1df468",
+		"last_action": "1433537228"
+	}
+}
