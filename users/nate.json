@@ -1,0 +1,25 @@
+{
+	"tenant": "1433444419117",
+	"login": "nate",
+	"roles": {
+		"list": [
+			"guest",
+			"shared_guest"
+		],
+		"default": "guest"
+	},
+	"rights": [],
+	"email": null,
+	"type": "",
+	"lastName": "",
+	"firstName": "",
+	"kind": "application",
+	"application": "test",
+	"_id": "55720acbd28ba9eb0165b60e",
+	"pass": "nate",
+	"versioning": {
+		"status": "committed",
+		"user": "https://bluemix.marketplace.ibmcloud.com/openid/id/968fc41b-9304-4e9a-8fd3-f0878b1df468",
+		"last_action": "1433537228"
+	}
+}
