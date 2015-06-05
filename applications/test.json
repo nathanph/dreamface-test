@@ -1,0 +1,72 @@
+{
+	"_id": "5570a06fd28ba9eb0165b5d0",
+	"name": "test",
+	"ownerId": "",
+	"requestDate": "",
+	"title": "test",
+	"applicationContext": [
+		{
+			"properties": [
+				{
+					"possibleValues": [],
+					"name": "selectedItem",
+					"value": ""
+				}
+			],
+			"object": "menu"
+		}
+	],
+	"github": {
+		"token": "",
+		"username": "",
+		"repository": ""
+	},
+	"phonegap": {
+		"token": "",
+		"applicationId": ""
+	},
+	"requiredLibraries": [],
+	"requiredStylesheets": [
+		{
+			"name": "_gc"
+		},
+		{
+			"name": "_ext"
+		}
+	],
+	"screenflow": [
+		{
+			"name": "Guest",
+			"left": "85",
+			"connections": [
+				{
+					"assertions": [],
+					"name": "Home"
+				}
+			],
+			"type": "http_guest",
+			"top": "150"
+		},
+		{
+			"name": "Home",
+			"left": "330",
+			"connections": [],
+			"type": "screen",
+			"top": "165"
+		}
+	],
+	"start": "Home",
+	"visibility": "visible",
+	"creationDate": "2015-06-04T19:01:03.196Z",
+	"active": true,
+	"version": "1.0",
+	"platform": "web",
+	"personalization": {
+		"template": "Standard"
+	},
+	"versioning": {
+		"status": "committed",
+		"user": "https://bluemix.marketplace.ibmcloud.com/openid/id/968fc41b-9304-4e9a-8fd3-f0878b1df468",
+		"last_action": "1433444463"
+	}
+}
